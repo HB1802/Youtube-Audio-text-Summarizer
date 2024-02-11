@@ -29,7 +29,7 @@ provide more true and accurate audio clips.
 """
 # shell command
 import subprocess
-command = "ffmpeg -i C:/Users/jatin/PycharmProjects/NLTK_Summariser/a1.mp4 -ab 160k -ac 2 -ar 44100 -vn C:/Users/jatin/PycharmProjects/NLTK_Summariser/a1.wav"
+command = "ffmpeg -i C:/Users/harshit/PycharmProjects/NLTK_Summariser/a1.mp4 -ab 160k -ac 2 -ar 44100 -vn C:/Users/harshit/PycharmProjects/NLTK_Summariser/a1.wav"
 subprocess.call(command, shell=True)
 """
 load_audio = AudioSegment.from_file('Audios/a1.mp4', format="mp4")
